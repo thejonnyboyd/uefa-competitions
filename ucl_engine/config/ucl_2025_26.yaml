@@ -1,0 +1,52 @@
+competition: UEFA Champions League
+season: 2025-2026
+pots:
+  - name: Pot 1
+    teams:
+      - {name: "Paris St. Germain FC", federation: "FRA"}
+      - {name: "Real Madrid CF", federation: "ESP"}
+      - {name: "Manchester City FC", federation: "ENG"}
+      - {name: "FC Bayern Munchen", federation: "GER"}
+      - {name: "Liverpool FC", federation:"ENG"}
+      - {name: "Internazionale Milano", federation:"ITA"}
+      - {name: "Chealsea FC", federation: "ENG"}
+      - {name: "Borussia Dortmund", federation: "GER"}
+      - {name: "FC Barcelona", federation: "ESP"}
+  - name: Pot 2
+    teams:
+      - {name: "Arsenal FC", federation: "ENG"}
+      - {name: "Bayer 04 Leverkusen", federation: "GER"}
+      - {name: "Atletico de Madrid", federation: "ESP"}
+      - {name: "SL Benfica", federation: "POR"}
+      - {name: "Atalanta BC", federation: "ITA"}
+      - {name: "Villareal CF", federation: "ESP"}
+      - {name: "Juventus FC", federation: "ITA"}
+      - {name: "Eintract Frankfurt", federation: "GER"}
+      - {name: "Club Brugge KV", federation: "BEL"}
+  - name: Pot 3
+    teams:
+      - {name: "Tottenham Hotspur FC", federation: "ENG"}
+      - {name: "PSV Eindhoven", federation: "NED"}
+      - {name: "AFC Ajax", federation: "NED"}
+      - {name: "SSC Napoli", federation: "ITA"}
+      - {name: "Sporting CP", federation: "POR"}
+      - {name: "Olympiacos FC", federation: "GRE"}
+      - {name: "SK Slavia Praha", federation: "CZE"}
+      - {name: "FK Bodo/Glimt", federation: "NOR"}
+      - {name: "Olympique de Marseille", federation: "FRA"}
+  - name: Pot 4
+    teams:
+      - {name: "FC Copenhagen", federation: "DEN"}
+      - {name: "AS Monaco", federation: "FRA"}
+      - {name: "Galatasaray SK", federation: "TUR"}
+      - {name: "Royale Union Saint-Gilloise", federation: "BEL"}
+      - {name: "Qarabag FK", federation: "AZE"}
+      - {name: "Athletic Club", federation: "ESP"}
+      - {name: "Newcastle United FC", federation: "ENG"}
+      - {name: "Pafos FC", federation: "CYP"}
+      - {name: "FC Kairat Almaty", federation: "KAZ"}
+rules:
+  matches_per_team: 8
+  home_away_balance: { home: 1, away: 1 }
+  block_same_federation: true
+  maximum_from_same_federation: 2
