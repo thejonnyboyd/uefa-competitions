@@ -7,8 +7,8 @@ pots:
       - {name: "Real Madrid CF", federation: "ESP"}
       - {name: "Manchester City FC", federation: "ENG"}
       - {name: "FC Bayern Munchen", federation: "GER"}
-      - {name: "Liverpool FC", federation:"ENG"}
-      - {name: "Internazionale Milano", federation:"ITA"}
+      - {name: "Liverpool FC", federation: "ENG"}
+      - {name: "Internazionale Milano", federation: "ITA"}
       - {name: "Chelsea FC", federation: "ENG"}
       - {name: "Borussia Dortmund", federation: "GER"}
       - {name: "FC Barcelona", federation: "ESP"}
@@ -47,6 +47,6 @@ pots:
       - {name: "FC Kairat Almaty", federation: "KAZ"}
 rules:
   matches_per_team: 8
-  home_away_balance: { home: 1, away: 1 }
+  home_away_balance: { home: 4, away: 4 }
   block_same_federation: true
   maximum_per_foreign_federation: 2
