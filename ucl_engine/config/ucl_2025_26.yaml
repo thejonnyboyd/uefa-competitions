@@ -3,13 +3,13 @@ season: 2025-2026
 pots:
   - name: Pot 1
     teams:
-      - {name: "Paris St. Germain FC", federation: "FRA"}
+      - {name: "Paris Saint-Germain FC", federation: "FRA"}
       - {name: "Real Madrid CF", federation: "ESP"}
       - {name: "Manchester City FC", federation: "ENG"}
       - {name: "FC Bayern Munchen", federation: "GER"}
       - {name: "Liverpool FC", federation:"ENG"}
       - {name: "Internazionale Milano", federation:"ITA"}
-      - {name: "Chealsea FC", federation: "ENG"}
+      - {name: "Chelsea FC", federation: "ENG"}
       - {name: "Borussia Dortmund", federation: "GER"}
       - {name: "FC Barcelona", federation: "ESP"}
   - name: Pot 2
@@ -19,9 +19,9 @@ pots:
       - {name: "Atletico de Madrid", federation: "ESP"}
       - {name: "SL Benfica", federation: "POR"}
       - {name: "Atalanta BC", federation: "ITA"}
-      - {name: "Villareal CF", federation: "ESP"}
+      - {name: "Villarreal CF", federation: "ESP"}
       - {name: "Juventus FC", federation: "ITA"}
-      - {name: "Eintract Frankfurt", federation: "GER"}
+      - {name: "Eintracht Frankfurt", federation: "GER"}
       - {name: "Club Brugge KV", federation: "BEL"}
   - name: Pot 3
     teams:
@@ -49,4 +49,4 @@ rules:
   matches_per_team: 8
   home_away_balance: { home: 1, away: 1 }
   block_same_federation: true
-  maximum_from_same_federation: 2
+  maximum_per_foreign_federation: 2
