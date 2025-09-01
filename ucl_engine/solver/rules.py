@@ -2,6 +2,12 @@ from collections import defaultdict
 from typing import Dict, List, Set, Tuple
 from ucl_engine.schemas import Config
 
+def pot_index(cfg: Config) -> Dict[str, int]:
+    return {team.id: pot_idx for pot_idx, pot in enumerate(cfg.pots, start=1) for team in pot.teams}
+
+def teams_by_pot(cfg: Config) -> Dict[int, List[str]]:
+    return {pot_idx: [team.id for team in pot.teams] for pot_idx, pot in enumerate(cfg.pots, start=1)}
+
 def forbidden_pairs(cfg: Config) -> Set[Tuple[str, str]]:
     block: Set[Tuple[str, str]] = set()
     if cfg.rules.block_same_federation:
