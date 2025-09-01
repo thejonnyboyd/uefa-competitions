@@ -1,0 +1,52 @@
+competition: UEFA Europa League
+season: 2025-2026
+pots:
+  - name: Pot 1
+    teams:
+      - {name: "AS Roma", federation: "ITA"}
+      - {name: "FC Porto", federation: "POR"}
+      - {name: "Rangers", federation: "SCO"}
+      - {name: "Feyenoord", federation: "NED"}
+      - {name: "LOSC Lille", federation: "FRA"}
+      - {name: "GNK Dinamo Zagreb", federation: "CRO"}
+      - {name: "Real Betis Balompie", federation: "ESP"}
+      - {name: "FC RB Salzburg", federation: "AUT"}
+      - {name: "Aston Villa FC", federation: "ENG"}
+  - name: Pot 2
+    teams:
+      - {name: "Fenerbahce SK", federation: "TUR"}
+      - {name: "SC Braga", federation: "POR"}
+      - {name: "FC Crvena Zvezda", federation: "SER"}
+      - {name: "Olympique Lyonnais", federation: "FRA"}
+      - {name: "PAOK FC", federation: "GRE"}
+      - {name: "FC Viktoria Plzen", federation: "CZE"}
+      - {name: "Ferencvarosi TC", federation: "HUN"}
+      - {name: "Celtic FC", federation: "SCO"}
+      - {name: "Maccabi Tel Aviv FC", federation: "ISR"}
+  - name: Pot 3
+    teams:
+      - {name: "BSC Young Boys", federation: "SWI"}
+      - {name: "FC Basel 1893", federation: "SWI"}
+      - {name: "FC Midtjylland", federation: "DEN"}
+      - {name: "SC Freiburg", federation: "GER"}
+      - {name: "PFC Ludogorets Razgrad", federation: "BUL"}
+      - {name: "Nottingham Forest FC", federation: "ENG"}
+      - {name: "SK Sturm Graz", federation: "AUT"}
+      - {name: "FC Steaua Bucuresti", federation: "ROM"}
+      - {name: "OCG Nice", federation: "FRA"}
+  - name: Pot 4
+    teams:
+      - {name: "Bologna FC 1909", federation: "ITA"}
+      - {name: "RC Celta de Vigo", federation: "ESP"}
+      - {name: "VfB Stuttgart", federation: "POR"}
+      - {name: "Panathinaikos FC", federation: "GRE"}
+      - {name: "Malmo FF", federation: "SWE"}
+      - {name: "Go Ahead Eagles", federation: "NED"}
+      - {name: "FC Utrecht", federation: "NED"}
+      - {name: "KRC Genk", federation: "BEL"}
+      - {name: "SK Brann", federation: "NOR"}
+rules:
+  matches_per_team: 8
+  home_away_balance: { home: 4, away: 4 }
+  block_same_federation: true
+  maximum_per_foreign_federation: 2

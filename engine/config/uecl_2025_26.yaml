@@ -1,0 +1,56 @@
+competition: UEFA Conference League
+season: 2025-2026
+pots:
+  - name: Pot 1
+    teams:
+      - {name: "ACF Fiorentina", federation: "ITA"}
+      - {name: "AZ Alkmaar", federation: "NED"}
+      - {name: "FC Shakhtar Donetsk", federation: "UKR"}
+      - {name: "SK Slovan Bratislava", federation: "SLO"}
+      - {name: "SK Rapid Wien", federation: "AUT"}
+      - {name: "Legia Warszawa", federation: "POL"}
+  - name: Pot 2
+    teams:
+      - {name: "AC Sparta Praha", federation: "CZE"}
+      - {name: "FC Dynamo Kyiv", federation: "UKR"}
+      - {name: "Crystal Palace FC", federation: "ENG"}
+      - {name: "Lech Poznan", federation: "POL"}
+      - {name: "Rayo Vallecano", federation: "ESP"}
+      - {name: "Shamrock Rovers FC", federation: "IRE"}
+  - name: Pot 3
+    teams:
+      - {name: "Omonoia FC", federation: "CYP"}
+      - {name: "1. FSV Mainz 05", federation: "GER"}
+      - {name: "RC Strasbourg Alsace", federation: "FRA"}
+      - {name: "Jagiellonia Bialystok", federation: "POL"}
+      - {name: "NK Celje", federation: "SLO"}
+      - {name: "HNK Rijeka", federation: "CRO"}
+  - name: Pot 4
+    teams:
+      - {name: "HSK Zrinjski Mostar", federation: "BOS"}
+      - {name: "Lincoln Red Imps FC", federation: "GIB"}
+      - {name: "KuPS Kuopio", federation: "FIN"}
+      - {name: "AEK Athens FC", federation: "GRE"}
+      - {name: "Aberdeen FC", federation: "SCO"}
+      - {name: "FC Drita", federation: "KOS"}
+  - name: Pot 5
+    teams:
+      - {name: "Breidablik", federation: "ICE"}
+      - {name: "SK Sigma Olomouc", federation: "CZE"}
+      - {name: "Samsunspor", federation: "TUR"}
+      - {name: "Rakow Czestochowa", federation: "POL"}
+      - {name: "AEK Larnaca FC", federation: "CYP"}
+      - {name: "KF Shkendija", federation: "MAC"}
+  - name: Pot 6
+    teams:
+      - {name: "BK Hacken", federation: "SWE"}
+      - {name: "FC Lausanne-Sport", federation: "SWI"}
+      - {name: "CS Universitatea Craiova", federation: "ROM"}
+      - {name: "Hamrun Spartans FC", federation: "MAL"}
+      - {name: "FC Noah", federation: "ARM"}
+      - {name: "Shelbourne FC", federation: "IRE"}
+rules:
+  matches_per_team: 6
+  home_away_balance: { home: 3, away: 3 }
+  block_same_federation: true
+  maximum_per_foreign_federation: 2
