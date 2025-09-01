@@ -1,6 +1,6 @@
 from ortools.sat.python import cp_model
-from ucl_engine.schemas import Config, Fixture, SolverMeta
-from ucl_engine.solver.rules import (
+from engine.schemas import Config, Fixture, SolverMeta
+from engine.solver.rules import (
     forbidden_pairs, quotas, opponents_by_federation, pot_index, teams_by_pot
 )
 import time

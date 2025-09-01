@@ -1,7 +1,7 @@
 import hashlib, json
-from ucl_engine.schemas import DrawRequest, DrawResult
-from ucl_engine.config.reader import load_config
-from ucl_engine.solver.cp_sat import solve
+from engine.schemas import DrawRequest, DrawResult
+from engine.config.reader import load_config
+from engine.solver.cp_sat import solve
 
 def compute_draw_id(cfg_dict: dict, seed: int | None) -> str:
     key = json.dumps({"cfg": cfg_dict, "seed": seed}, sort_keys=True).encode()

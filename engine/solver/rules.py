@@ -1,6 +1,6 @@
 from collections import defaultdict
 from typing import Dict, List, Set, Tuple
-from ucl_engine.schemas import Config
+from engine.schemas import Config
 
 def pot_index(cfg: Config) -> Dict[str, int]:
     return {team.id: pot_idx for pot_idx, pot in enumerate(cfg.pots, start=1) for team in pot.teams}

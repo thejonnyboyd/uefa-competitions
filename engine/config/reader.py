@@ -1,6 +1,6 @@
 from pathlib import Path
 import yaml
-from ucl_engine.schemas import Config, Team, Pot
+from engine.schemas import Config, Team, Pot
 
 def _normalise(cfg: dict) -> dict:
     def make_id(name): return "".join(c.lower() for c in name if c.isalnum())[:12]

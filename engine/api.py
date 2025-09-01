@@ -1,7 +1,7 @@
 from fastapi import FastAPI, WebSocket
-from ucl_engine.schemas import DrawRequest, DrawResult
-from ucl_engine.config.reader import load_config
-from ucl_engine.service import run_draw
+from engine.schemas import DrawRequest, DrawResult
+from engine.config.reader import load_config
+from engine.service import run_draw
 
 app = FastAPI(title="UEFA Draw Engine")
 
